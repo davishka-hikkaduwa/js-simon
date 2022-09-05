@@ -13,3 +13,14 @@ Consigli del giorno:
 * Individuate gli elementi di cui avete bisogno per realizzare il programma.
 
 */
+
+// Stampare 5 numeri random.
+
+// Inizia un timer di 30 secondi.
+
+// Dopo 30 secondi i numeri scompaiono.
+
+// Tramite prompt, utente viene chiesto di inserire i numeri che ha visto prima, uno alla volta.
+
+// Controllare e dire al utente se i numeri inseriti sono identici a quelli visti prima.
+
