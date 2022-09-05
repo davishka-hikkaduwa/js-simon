@@ -14,13 +14,30 @@ Consigli del giorno:
 
 */
 
-// Stampare 5 numeri random.
+// ----- Stampare 5 numeri random.
+const arrayOfRandomNumbers = []
 
-// Inizia un timer di 30 secondi.
+//con ciclo for
 
-// Dopo 30 secondi i numeri scompaiono.
+for (let index = 0; index < 5; index++) {
 
-// Tramite prompt, utente viene chiesto di inserire i numeri che ha visto prima, uno alla volta.
+    let randomNumber = parseInt(Math.ceil(Math.random() * 10));
+    console.log(randomNumber);
 
-// Controllare e dire al utente se i numeri inseriti sono identici a quelli visti prima.
+    arrayOfRandomNumbers.push(randomNumber);
+    console.log(arrayOfRandomNumbers);
+}
+
+prompt(arrayOfRandomNumbers);
+
+
+
+
+// ----- Inizia un timer di 30 secondi.
+
+// ----- Dopo 30 secondi i numeri scompaiono.
+
+// ----- Tramite prompt, utente viene chiesto di inserire i numeri che ha visto prima, uno alla volta.
+
+// ----- Controllare e dire al utente se i numeri inseriti sono identici a quelli visti prima.
 
